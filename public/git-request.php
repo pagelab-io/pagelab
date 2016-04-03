@@ -8,7 +8,7 @@ $REPO_PATH = "/var/www/pagelab.io";
 //echo shell_exec("cd ~/ && pwd 2>&1");
 
 // Pull files from repo
-$output = shell_exec("cd /var/www/pagelab.io &&  git pull 2>&1");
+$output = shell_exec("cd /var/www/pagelab.io && sudo git pull 2>&1");
 
 // Log changes
 file_put_contents("/var/www/logs/pagelab.log", '/////////////////////////////' . PHP_EOL . $output, FILE_APPEND);
