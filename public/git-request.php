@@ -1,6 +1,6 @@
 <?php
 
-// Init vars
+// Init vars.
 $REPO_PATH = "/var/www/pagelab.io";
 
 //echo "<pre>";
