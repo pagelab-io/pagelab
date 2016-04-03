@@ -3,7 +3,7 @@
 // Init vars
 $REPO_PATH = "/var/www/pagelab.io";
 
-
+//echo "<pre>";
 
 //echo shell_exec("cd ~/ && pwd 2>&1");
 
