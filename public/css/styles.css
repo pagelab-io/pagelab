@@ -1,0 +1,61 @@
+/*
+    Document   : styles
+    Created on : 22/11/2015, 09:01:15 PM
+    Author     : pagelab
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200);
+
+html,
+body{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    color: #333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+.cover{
+    height: 80px;
+    margin-top: -40px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+    -webkit-transition: all 350ms;
+    -moz-transition: all 350ms;
+    -ms-transition: all 350ms;
+    -o-transition: all 350ms;
+    transition: all 350ms;
+}
+
+
+.logo-pagelab{
+    background: url('http://pagelab.io/imgs/pagelab-black.png') no-repeat;
+    background-size: 283px 80px;
+    width: 283px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+@media(max-width: 600px){
+    .cover{
+        /*font-size: 25px;
+        height: 140px;
+        margin-top: -90px;*/
+    }
+}
