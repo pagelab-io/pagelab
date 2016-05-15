@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/paypay-test', function() {
+  return view('test');
+});
